@@ -1,0 +1,224 @@
+========================================
+ROUND 6: STANDARD GA-QAOA (The Paper)
+========================================
+Quantum Core Initialized for 4 cities. Qubits: 16
+--- Starting Your GA-QAOA for 4 cities ---
+Generation 00 || Energy: 3.0908
+Generation 01 || Energy: 3.5132
+Generation 02 || Energy: 3.0664
+Generation 03 || Energy: 3.2202
+Generation 04 || Energy: 3.0176
+Generation 05 || Energy: 3.1519
+Generation 06 || Energy: 2.6001
+Generation 07 || Energy: 2.8101
+Generation 08 || Energy: 2.5781
+Generation 09 || Energy: 1.7554
+Generation 10 || Energy: 1.5405
+Generation 11 || Energy: 1.6821
+Generation 12 || Energy: 1.5918
+Generation 13 || Energy: 1.3354
+Generation 14 || Energy: 1.3623
+Generation 15 || Energy: 1.3501
+Generation 16 || Energy: 1.3940
+Generation 17 || Energy: 1.2183
+Generation 18 || Energy: 1.3867
+Generation 19 || Energy: 1.2793
+Generation 20 || Energy: 1.3013
+Generation 21 || Energy: 1.3159
+Generation 22 || Energy: 1.2793
+Generation 23 || Energy: 1.3989
+Generation 24 || Energy: 1.2500
+Generation 25 || Energy: 1.2036
+Generation 26 || Energy: 1.3013
+Generation 27 || Energy: 1.3086
+Generation 28 || Energy: 1.3110
+Generation 29 || Energy: 1.2427
+Generation 30 || Energy: 1.3159
+Generation 31 || Energy: 1.2500
+Generation 32 || Energy: 1.1841
+Generation 33 || Energy: 1.3232
+Generation 34 || Energy: 1.3208
+Generation 35 || Energy: 1.3794
+Generation 36 || Energy: 1.3525
+Generation 37 || Energy: 1.3184
+Generation 38 || Energy: 1.3916
+Generation 39 || Energy: 1.3281
+Generation 40 || Energy: 1.3062
+Generation 41 || Energy: 1.2256
+Generation 42 || Energy: 1.2915
+Generation 43 || Energy: 1.1792
+Generation 44 || Energy: 1.1914
+Generation 45 || Energy: 1.2769
+Generation 46 || Energy: 1.2305
+Generation 47 || Energy: 1.1597
+Generation 48 || Energy: 1.2280
+Generation 49 || Energy: 1.2158
+Generation 50 || Energy: 1.2695
+Generation 51 || Energy: 1.2573
+Generation 52 || Energy: 1.2476
+Generation 53 || Energy: 1.2451
+Generation 54 || Energy: 1.2280
+Generation 55 || Energy: 1.2231
+Generation 56 || Energy: 1.2598
+Generation 57 || Energy: 1.2891
+Generation 58 || Energy: 1.2109
+Generation 59 || Energy: 1.1890
+Generation 60 || Energy: 1.3086
+Generation 61 || Energy: 1.2622
+Generation 62 || Energy: 1.1328
+Generation 63 || Energy: 1.1426
+Generation 64 || Energy: 1.2744
+Generation 65 || Energy: 1.2671
+Generation 66 || Energy: 1.2646
+Generation 67 || Energy: 1.1938
+Generation 68 || Energy: 1.2671
+Generation 69 || Energy: 1.3257
+Generation 70 || Energy: 1.3354
+Generation 71 || Energy: 1.2842
+Generation 72 || Energy: 1.2134
+Generation 73 || Energy: 1.2866
+Generation 74 || Energy: 1.2354
+Generation 75 || Energy: 1.1475
+Generation 76 || Energy: 1.2720
+Generation 77 || Energy: 1.1914
+Generation 78 || Energy: 1.1426
+Generation 79 || Energy: 1.2280
+Generation 80 || Energy: 1.1304
+Generation 81 || Energy: 1.1719
+Generation 82 || Energy: 1.2988
+Generation 83 || Energy: 1.2036
+Generation 84 || Energy: 1.2329
+Generation 85 || Energy: 1.2695
+Generation 86 || Energy: 1.1865
+Generation 87 || Energy: 1.3184
+Generation 88 || Energy: 1.2280
+Generation 89 || Energy: 1.2793
+Generation 90 || Energy: 1.2378
+Generation 91 || Energy: 1.2305
+Generation 92 || Energy: 1.3086
+Generation 93 || Energy: 1.2964
+Generation 94 || Energy: 1.2598
+Generation 95 || Energy: 1.1353
+Generation 96 || Energy: 1.2500
+Generation 97 || Energy: 1.0815
+Generation 98 || Energy: 1.2646
+Generation 99 || Energy: 1.3452
+
+--- Optimization Complete. Decoding... ---
+Quantum Measurement: Found 720 unique states.
+ >> WARNING: No fully valid tour found in top 100 states.
+
+========================================
+ROUND 2: NOVEL APSO-QAOA (Your Thesis)
+========================================
+Quantum Core Initialized for 4 cities. Qubits: 16
+--- Starting CUSTOM APSO-QAOA (Fuzzy Logic) for 4 cities ---
+Gen 00 | Energy: 16.5869 | State: Convergence
+Gen 01 | Energy: 16.5869 | State: Convergence
+Gen 02 | Energy: 16.0034 | State: Exploitation
+Gen 03 | Energy: 12.8491 | State: Convergence
+Gen 04 | Energy: 7.7222 | State: Exploration
+Gen 05 | Energy: 7.7222 | State: Convergence
+Gen 06 | Energy: 4.7339 | State: Exploitation
+Gen 07 | Energy: 4.7339 | State: Exploration
+Gen 08 | Energy: 4.7339 | State: Convergence
+Gen 09 | Energy: 4.7339 | State: Convergence
+Gen 10 | Energy: 4.7339 | State: Convergence
+Gen 11 | Energy: 4.6021 | State: Convergence
+Gen 12 | Energy: 4.6021 | State: Convergence
+Gen 13 | Energy: 4.6021 | State: Convergence
+Gen 14 | Energy: 4.6021 | State: Convergence
+Gen 15 | Energy: 4.6021 | State: Convergence
+Gen 16 | Energy: 4.6021 | State: Convergence
+Gen 17 | Energy: 4.6021 | State: Jumping
+Gen 18 | Energy: 4.6021 | State: Convergence
+Gen 19 | Energy: 4.6021 | State: Convergence
+Gen 20 | Energy: 4.6021 | State: Convergence
+Gen 21 | Energy: 4.6021 | State: Convergence
+Gen 22 | Energy: 4.6021 | State: Convergence
+Gen 23 | Energy: 4.6021 | State: Jumping
+Gen 24 | Energy: 4.6021 | State: Convergence
+Gen 25 | Energy: 4.6021 | State: Convergence
+Gen 26 | Energy: 4.6021 | State: Convergence
+Gen 27 | Energy: 4.6021 | State: Convergence
+Gen 28 | Energy: 4.6021 | State: Convergence
+Gen 29 | Energy: 4.3042 | State: Convergence
+Gen 30 | Energy: 4.3042 | State: Convergence
+Gen 31 | Energy: 4.3042 | State: Convergence
+Gen 32 | Energy: 4.3042 | State: Convergence
+Gen 33 | Energy: 4.3042 | State: Convergence
+Gen 34 | Energy: 4.3042 | State: Convergence
+Gen 35 | Energy: 4.3042 | State: Jumping
+Gen 36 | Energy: 4.3042 | State: Convergence
+Gen 37 | Energy: 4.3042 | State: Convergence
+Gen 38 | Energy: 4.3042 | State: Convergence
+Gen 39 | Energy: 4.3042 | State: Convergence
+Gen 40 | Energy: 4.3042 | State: Convergence
+Gen 41 | Energy: 3.1445 | State: Convergence
+Gen 42 | Energy: 2.7783 | State: Convergence
+Gen 43 | Energy: 2.7783 | State: Convergence
+Gen 44 | Energy: 2.7783 | State: Convergence
+Gen 45 | Energy: 2.7783 | State: Convergence
+Gen 46 | Energy: 2.7783 | State: Convergence
+Gen 47 | Energy: 2.7783 | State: Convergence
+Gen 48 | Energy: 1.9214 | State: Convergence
+Gen 49 | Energy: 1.9214 | State: Convergence
+Gen 50 | Energy: 1.4966 | State: Convergence
+Gen 51 | Energy: 1.4966 | State: Convergence
+Gen 52 | Energy: 1.4966 | State: Convergence
+Gen 53 | Energy: 1.4966 | State: Convergence
+Gen 54 | Energy: 1.4966 | State: Convergence
+Gen 55 | Energy: 1.4966 | State: Convergence
+Gen 56 | Energy: 1.4966 | State: Jumping
+Gen 57 | Energy: 1.4966 | State: Convergence
+Gen 58 | Energy: 1.4966 | State: Convergence
+Gen 59 | Energy: 1.4966 | State: Convergence
+Gen 60 | Energy: 1.4966 | State: Convergence
+Gen 61 | Energy: 1.4966 | State: Convergence
+Gen 62 | Energy: 1.4966 | State: Jumping
+Gen 63 | Energy: 1.4966 | State: Convergence
+Gen 64 | Energy: 1.4966 | State: Convergence
+Gen 65 | Energy: 1.4966 | State: Convergence
+Gen 66 | Energy: 1.4966 | State: Convergence
+Gen 67 | Energy: 1.4966 | State: Convergence
+Gen 68 | Energy: 1.4966 | State: Jumping
+Gen 69 | Energy: 1.4966 | State: Convergence
+Gen 70 | Energy: 1.2354 | State: Convergence
+Gen 71 | Energy: 1.2354 | State: Convergence
+Gen 72 | Energy: 1.2036 | State: Convergence
+Gen 73 | Energy: 1.2036 | State: Convergence
+Gen 74 | Energy: 1.1694 | State: Convergence
+Gen 75 | Energy: 1.0645 | State: Convergence
+Gen 76 | Energy: 1.0376 | State: Convergence
+Gen 77 | Energy: 1.0376 | State: Convergence
+Gen 78 | Energy: 1.0376 | State: Convergence
+Gen 79 | Energy: 0.9497 | State: Convergence
+Gen 80 | Energy: 0.9473 | State: Convergence
+Gen 81 | Energy: 0.8032 | State: Convergence
+Gen 82 | Energy: 0.8032 | State: Convergence
+Gen 83 | Energy: 0.8032 | State: Convergence
+Gen 84 | Energy: 0.8032 | State: Convergence
+Gen 85 | Energy: 0.8032 | State: Convergence
+Gen 86 | Energy: 0.8032 | State: Convergence
+Gen 87 | Energy: 0.8032 | State: Jumping
+Gen 88 | Energy: 0.8032 | State: Convergence
+Gen 89 | Energy: 0.7935 | State: Convergence
+Gen 90 | Energy: 0.7886 | State: Convergence
+Gen 91 | Energy: 0.7886 | State: Convergence
+Gen 92 | Energy: 0.7886 | State: Convergence
+Gen 93 | Energy: 0.7886 | State: Convergence
+Gen 94 | Energy: 0.5615 | State: Convergence
+Gen 95 | Energy: 0.5615 | State: Convergence
+Gen 96 | Energy: 0.5615 | State: Convergence
+Gen 97 | Energy: 0.5615 | State: Convergence
+Gen 98 | Energy: 0.5615 | State: Convergence
+Gen 99 | Energy: 0.5615 | State: Convergence
+
+--- Custom APSO Complete. Decoding... ---
+Quantum Measurement: Found 501 unique states.
+ >> WARNING: No fully valid tour found in top 100 states.
+
+Graph saved as 'final_comparison.jpg'
+GA Final Energy:   0.0000
+APSO Final Energy: 0.0000
+>>> CONCLUSION: APSO matches or beats the benchmark!

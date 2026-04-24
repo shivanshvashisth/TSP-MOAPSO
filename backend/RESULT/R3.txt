@@ -1,0 +1,65 @@
+
+========================================
+ROUND 3: STANDARD GA-QAOA (The Paper)
+========================================
+Quantum Core Initialized for 4 cities. Qubits: 16
+--- Starting Your GA-QAOA for 4 cities ---
+Generation 00 || Energy: 31.3501
+Generation 01 || Energy: 30.7910
+Generation 02 || Energy: 23.9966
+Generation 03 || Energy: 23.6719
+Generation 04 || Energy: 22.4609
+Generation 05 || Energy: 21.4600
+Generation 06 || Energy: 21.7261
+Generation 07 || Energy: 22.3853
+Generation 08 || Energy: 22.7832
+Generation 09 || Energy: 23.4961
+Generation 10 || Energy: 21.9238
+Generation 11 || Energy: 21.5625
+Generation 12 || Energy: 21.2329
+Generation 13 || Energy: 21.1060
+Generation 14 || Energy: 20.7275
+Generation 15 || Energy: 21.1792
+Generation 16 || Energy: 20.2417
+Generation 17 || Energy: 20.4126
+Generation 18 || Energy: 20.9448
+Generation 19 || Energy: 20.2124
+
+--- Optimization Complete. Decoding... ---
+Quantum Measurement: Found 2850 unique states.
+ >> Found VALID tour in state 1010101010101010 (Count: 37)
+
+========================================
+ROUND 2: NOVEL APSO-QAOA (Your Thesis)
+========================================
+Quantum Core Initialized for 4 cities. Qubits: 16
+--- Starting CUSTOM APSO-QAOA (Fuzzy Logic) for 4 cities ---
+Gen 00 | Energy: 25.0439 | State: Convergence
+Gen 01 | Energy: 25.0439 | State: Convergence
+Gen 02 | Energy: 7.6270 | State: Convergence
+Gen 03 | Energy: 7.6270 | State: Convergence
+Gen 04 | Energy: 4.7607 | State: Convergence
+Gen 05 | Energy: 4.7607 | State: Convergence
+Gen 06 | Energy: 4.7607 | State: Convergence
+Gen 07 | Energy: 4.7607 | State: Convergence
+Gen 08 | Energy: 4.7607 | State: Convergence
+Gen 09 | Energy: 4.7607 | State: Convergence
+Gen 10 | Energy: 4.7607 | State: Convergence
+Gen 11 | Energy: 3.3301 | State: Convergence
+Gen 12 | Energy: 2.8857 | State: Convergence
+Gen 13 | Energy: 2.8857 | State: Convergence
+Gen 14 | Energy: 2.8857 | State: Convergence
+Gen 15 | Energy: 2.8857 | State: Convergence
+Gen 16 | Energy: 2.2437 | State: Convergence
+Gen 17 | Energy: 2.2437 | State: Convergence
+Gen 18 | Energy: 2.2437 | State: Convergence
+Gen 19 | Energy: 2.2437 | State: Convergence
+
+--- Custom APSO Complete. Decoding... ---
+Quantum Measurement: Found 804 unique states.
+ >> WARNING: No fully valid tour found in top 20 states.
+
+Graph saved as 'final_comparison.jpg'
+GA Final Energy:   0.0000
+APSO Final Energy: 0.0000
+>>> CONCLUSION: APSO matches or beats the benchmark!

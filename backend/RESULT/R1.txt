@@ -1,0 +1,247 @@
+========================================
+
+ROUND 1: STANDARD GA-QAOA (The Paper)
+
+========================================
+
+Quantum Core Initialized for 4 cities. Qubits: 16
+
+--- Starting Your GA-QAOA for 4 cities ---
+
+Generation 00 || Energy: 34.2920
+
+Generation 01 || Energy: 34.6606
+
+Generation 02 || Energy: 34.8022
+
+Generation 03 || Energy: 34.1650
+
+Generation 04 || Energy: 32.2852
+
+Generation 05 || Energy: 31.9531
+
+Generation 06 || Energy: 32.2119
+
+Generation 07 || Energy: 32.1167
+
+Generation 08 || Energy: 31.0767
+
+Generation 09 || Energy: 31.5942
+
+Generation 10 || Energy: 14.6558
+
+Generation 11 || Energy: 14.9609
+
+Generation 12 || Energy: 13.9331
+
+Generation 13 || Energy: 13.5205
+
+Generation 14 || Energy: 12.9224
+
+Generation 15 || Energy: 12.3730
+
+Generation 16 || Energy: 11.7871
+
+Generation 17 || Energy: 8.2788
+
+Generation 18 || Energy: 8.7451
+
+Generation 19 || Energy: 5.2588
+
+Generation 20 || Energy: 4.4409
+
+Generation 21 || Energy: 4.8169
+
+Generation 22 || Energy: 3.2056
+
+Generation 23 || Energy: 3.9526
+
+Generation 24 || Energy: 3.4326
+
+Generation 25 || Energy: 3.6597
+
+Generation 26 || Energy: 3.5474
+
+Generation 27 || Energy: 3.3740
+
+Generation 28 || Energy: 3.3521
+
+Generation 29 || Energy: 3.1519
+
+Generation 30 || Energy: 3.0713
+
+Generation 31 || Energy: 3.1641
+
+Generation 32 || Energy: 3.1348
+
+Generation 33 || Energy: 3.0884
+
+Generation 34 || Energy: 3.0420
+
+Generation 35 || Energy: 2.4316
+
+Generation 36 || Energy: 2.6392
+
+Generation 37 || Energy: 2.6538
+
+Generation 38 || Energy: 2.1899
+
+Generation 39 || Energy: 2.2705
+
+Generation 40 || Energy: 2.2485
+
+Generation 41 || Energy: 2.3486
+
+Generation 42 || Energy: 2.2314
+
+Generation 43 || Energy: 2.0630
+
+Generation 44 || Energy: 1.9678
+
+Generation 45 || Energy: 2.2534
+
+Generation 46 || Energy: 2.4268
+
+Generation 47 || Energy: 2.2656
+
+Generation 48 || Energy: 2.2852
+
+Generation 49 || Energy: 2.2168
+
+
+
+--- Optimization Complete. Decoding... ---
+
+Quantum Measurement: Found 992 unique states.
+
+ >> WARNING: No fully valid tour found in top 20 states.
+
+
+
+========================================
+
+ROUND 2: NOVEL APSO-QAOA (Your Thesis)
+
+========================================
+
+Quantum Core Initialized for 4 cities. Qubits: 16
+
+--- Starting NOVEL APSO-QAOA for 4 cities ---
+
+Generation 00 || Best Energy: 26.7627
+
+Generation 01 || Best Energy: 26.7627
+
+Generation 02 || Best Energy: 26.7627
+
+Generation 03 || Best Energy: 26.7627
+
+Generation 04 || Best Energy: 26.7627
+
+Generation 05 || Best Energy: 26.7627
+
+Generation 06 || Best Energy: 26.7627
+
+Generation 07 || Best Energy: 20.1245
+
+Generation 08 || Best Energy: 20.1245
+
+Generation 09 || Best Energy: 8.6084
+
+Generation 10 || Best Energy: 8.6084
+
+Generation 11 || Best Energy: 8.6084
+
+Generation 12 || Best Energy: 8.6084
+
+Generation 13 || Best Energy: 8.6084
+
+Generation 14 || Best Energy: 8.6084
+
+Generation 15 || Best Energy: 7.1753
+
+Generation 16 || Best Energy: 7.1753
+
+Generation 17 || Best Energy: 7.1753
+
+Generation 18 || Best Energy: 5.4077
+
+Generation 19 || Best Energy: 5.4077
+
+Generation 20 || Best Energy: 5.4077
+
+Generation 21 || Best Energy: 5.4077
+
+Generation 22 || Best Energy: 5.4077
+
+Generation 23 || Best Energy: 5.4077
+
+Generation 24 || Best Energy: 4.6045
+
+Generation 25 || Best Energy: 4.6045
+
+Generation 26 || Best Energy: 4.6045
+
+Generation 27 || Best Energy: 4.6045
+
+Generation 28 || Best Energy: 2.9688
+
+Generation 29 || Best Energy: 2.9688
+
+Generation 30 || Best Energy: 2.4536
+
+Generation 31 || Best Energy: 2.4536
+
+Generation 32 || Best Energy: 2.4536
+
+Generation 33 || Best Energy: 2.4536
+
+Generation 34 || Best Energy: 2.4536
+
+Generation 35 || Best Energy: 2.4536
+
+Generation 36 || Best Energy: 2.4536
+
+Generation 37 || Best Energy: 2.4536
+
+Generation 38 || Best Energy: 2.4536
+
+Generation 39 || Best Energy: 2.4536
+
+Generation 40 || Best Energy: 2.4536
+
+Generation 41 || Best Energy: 2.4536
+
+Generation 42 || Best Energy: 2.4536
+
+Generation 43 || Best Energy: 2.1997
+
+Generation 44 || Best Energy: 2.1997
+
+Generation 45 || Best Energy: 2.1997
+
+Generation 46 || Best Energy: 2.1997
+
+Generation 47 || Best Energy: 2.1997
+
+Generation 48 || Best Energy: 2.1997
+
+Generation 49 || Best Energy: 2.1167
+
+
+
+--- APSO Optimization Complete. Decoding... ---
+
+Quantum Measurement: Found 824 unique states.
+
+ >> Found VALID tour in state 1000100010001000 (Count: 5)
+
+
+
+Graph saved as 'final_comparison.png'
+
+GA Final Energy:   0.0000
+
+APSO Final Energy: 0.0000
+
+>>> CONCLUSION: APSO matches or beats the benchmark!
